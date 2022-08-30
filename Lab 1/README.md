@@ -99,18 +99,17 @@ Storyboards are a tool for visually exploring a users interaction with a device.
 ![7_1](https://user-images.githubusercontent.com/112091020/187320450-1bfc7ef7-8b16-4894-a22b-440babcaeee9.jpg)
 ![7_2](https://user-images.githubusercontent.com/112091020/187320452-241ab54d-7ab8-4854-9f49-d8063eb727ba.jpg)
 
+Worked with Michael Choie, Calvin Tirell, and Brian
+
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
-\*\***Summarize feedback you got here.**\*\*
 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-\*\***Are there things that seemed better on paper than acted out?**\*\*
-
-\*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
+The actual amera setup was difficult because I wanted to the whole view of myself pretending to do work, but couldn't capture my whole face and desk at the same time. Also, the lighting made it difficult as it was quite dark out but the lamp I had made it quite bright at certain parts.
 
 
 ## Part C. Prototype the device
@@ -123,17 +122,15 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-\*\***Give us feedback on Tinkerbelle.**\*\*
-
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-\*\***Include your first attempts at recording the set-up video here.**\*\*
+
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-\*\***Show the follow-up work here.**\*\*
+
 
 
 ## Part E. Costume the device
@@ -142,18 +139,18 @@ Only now should you start worrying about what the device should look like. Devel
 
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
-\*\***Include sketches of what your devices might look like here.**\*\*
+![protoype1](https://user-images.githubusercontent.com/112091020/187337304-8de35230-e284-40d2-b12d-cbb541ca5811.jpg)
+![prototype2](https://user-images.githubusercontent.com/112091020/187337305-7a6310ef-8870-4c13-bcb7-f5dddbb1ebe1.jpg)
+![prototype3](https://user-images.githubusercontent.com/112091020/187337306-10ce5915-9434-447f-b569-b7f9d5ea7c7e.jpg)
 
-\*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+After an initial design, I realized this would make sense as a feature of a smartwatch or some sort of wearable device. Also, a smartphone could supplement as how the user configures it or can even be how the user mostly uses this interaction.
 
 ## Part F. Record
 
-\*\***Take a video of your prototyped interaction.**\*\*
 
-\*\***Please indicate anyone you collaborated with on this Lab.**\*\*
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
-
+https://user-images.githubusercontent.com/112091020/187337174-e80c38b1-456e-424e-95ac-3318ea6650cf.mp4
+ 
 
 
 # Staging Interaction, Part 2 
