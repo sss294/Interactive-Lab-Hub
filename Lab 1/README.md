@@ -69,11 +69,35 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+Setting: At a user's desk when they want to get work done.
 
-Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
+Players: One user is involved. 
 
-\*\***Include pictures of your storyboards here**\*\*
+Acivity: The user configures certain settings for how long they will be in "focus" mode.
+
+Goals: The user wants to do work without the distraction of their smartphone.
+
+Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene.
+
+![1](https://user-images.githubusercontent.com/112091020/187320437-ffa754d9-1246-4a95-8c88-f8b5994af8d9.jpg)
+![1_2](https://user-images.githubusercontent.com/112091020/187320438-5dbf7b72-6b86-4ffc-8a17-534da668110a.jpg)
+
+![2_1](https://user-images.githubusercontent.com/112091020/187320440-a480deb8-06cb-4e62-ab44-dfa2ebdfbf0a.jpg)
+![2_2](https://user-images.githubusercontent.com/112091020/187320442-fc7a10b4-7168-4026-a855-d96291a88cfb.jpg)
+
+![3_1](https://user-images.githubusercontent.com/112091020/187320443-73ae1af9-f08e-4013-9a83-232dd9f0b468.jpg)
+![3_2](https://user-images.githubusercontent.com/112091020/187320444-39a7e940-a9b8-4df5-a467-52d81474e738.jpg)
+![3_3](https://user-images.githubusercontent.com/112091020/187320445-4a6b27c6-e700-4346-9dd2-fa4a891ffb9c.jpg)
+
+![4_1](https://user-images.githubusercontent.com/112091020/187320446-d83445bb-4551-4aaf-a8a1-00c11c2a91c7.jpg)
+![4_2](https://user-images.githubusercontent.com/112091020/187320447-fa9bcd16-2515-47c5-a25c-9c21eb5e7ff6.jpg)
+
+![5](https://user-images.githubusercontent.com/112091020/187320448-38138de9-ad53-4125-80bd-8dae88b9663e.jpg)
+
+![6](https://user-images.githubusercontent.com/112091020/187320449-8f2f49c3-9bcc-441f-96e8-908c06ea294f.jpg)
+
+![7_1](https://user-images.githubusercontent.com/112091020/187320450-1bfc7ef7-8b16-4894-a22b-440babcaeee9.jpg)
+![7_2](https://user-images.githubusercontent.com/112091020/187320452-241ab54d-7ab8-4854-9f49-d8063eb727ba.jpg)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
