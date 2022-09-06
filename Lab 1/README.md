@@ -157,13 +157,6 @@ https://user-images.githubusercontent.com/112091020/187337174-e80c38b1-456e-424e
 
 This describes the second week's work for this lab activity.
 
-
-## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
-
-\*\***Summarize feedback from your partners here.**\*\*
-
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -172,3 +165,44 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+Storyboards:
+![1a](https://user-images.githubusercontent.com/112091020/188535240-be3474c1-721d-449f-827f-9f46a7f9b966.jpg)
+![1b](https://user-images.githubusercontent.com/112091020/188535253-fc485d92-b0a9-4966-b233-a20d9e769209.jpg)
+![2a](https://user-images.githubusercontent.com/112091020/188535276-010390ef-b86b-413d-9300-0345d36b237e.jpg)
+![2b](https://user-images.githubusercontent.com/112091020/188535282-6e522682-ed60-4e29-a82e-80661074fb5b.jpg)
+![2c](https://user-images.githubusercontent.com/112091020/188535286-c57973d0-bccd-43ec-be94-915fb5c75619.jpg)
+![2d](https://user-images.githubusercontent.com/112091020/188535291-a79fbe15-a658-4829-9e80-5a2ebbb44ce2.jpg)
+![3a](https://user-images.githubusercontent.com/112091020/188535297-ece0d35b-3ed0-4ba0-b6d9-f855a7ab71b7.jpg)
+![3b](https://user-images.githubusercontent.com/112091020/188535302-0b226272-a6d5-4022-a611-37d334dbe098.jpg)
+![4a](https://user-images.githubusercontent.com/112091020/188535312-09100fe9-ead4-4c40-b718-dcee9fd653c1.jpg)
+![4b](https://user-images.githubusercontent.com/112091020/188535318-df812485-2123-4481-a8c3-45bcd5f81f06.jpg)
+![5](https://user-images.githubusercontent.com/112091020/188535329-8f1111f3-1e82-4f18-a133-19d0f1ee6337.jpg)
+![6a](https://user-images.githubusercontent.com/112091020/188535363-e750318e-269a-4e36-893b-6143793c725a.jpg)
+![6b](https://user-images.githubusercontent.com/112091020/188535366-0f05a85e-3506-419a-bcbd-caecf1dcf123.jpg)
+![7](https://user-images.githubusercontent.com/112091020/188535375-f4144b71-2f4c-4a14-be68-20a28d3acc33.jpg)
+
+Feedback received:
+Think about what the exact interactions the user will have with the device and which settings will be configurable. It seems like a good idea, but it's unclear how exactly it will work.
+
+Setting: At a user's desk when they want to get work done.
+
+Players: One user is involved. 
+
+Acivity: The user configures certain settings for how long they will be in "focus" mode, how long the breaks will be, what music to play during "focus" mode, and which notifications they should be alerted to while in "focus" mode.
+
+Goals: The user wants to do work without the distraction of their smartphone, so they can create an environment where they are aware of any urgent notifications but can leave their smartphone elsewhere.
+
+Design:
+
+![protoype1](https://user-images.githubusercontent.com/112091020/187337304-8de35230-e284-40d2-b12d-cbb541ca5811.jpg)
+![prototype2](https://user-images.githubusercontent.com/112091020/187337305-7a6310ef-8870-4c13-bcb7-f5dddbb1ebe1.jpg)
+![prototype3](https://user-images.githubusercontent.com/112091020/187337306-10ce5915-9434-447f-b569-b7f9d5ea7c7e.jpg)
+
+The device itself should be pretty simple; it might not even need any sort of interactive interface or could be built into a smartwatch. Either way, there will be 2 modes: focus and break. During focus mode, the device will be glow a certain color and will play whatever music the user wants, preferably something that will help them stay focused. Only notifications that the user enables will be indicated with a noise, the device will not do anything for all other notifications. During break mode, the device will glow a different color and will have an internal countdown. Once that countdown reaches 1 minute before the end, it will change color once more.
+
+Demo:
+
+https://user-images.githubusercontent.com/112091020/187337174-e80c38b1-456e-424e-95ac-3318ea6650cf.mp4
+
+This demo only showcases one use case; when a user finishes focus mode.
