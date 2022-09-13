@@ -205,11 +205,21 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-\*\*\***Take a video of your PiClock.**\*\*\*
+Part 1
+https://user-images.githubusercontent.com/112091020/189785917-ee6b94fa-f2c7-482e-a985-d13e34146770.mp4
+
+Part 2
+https://user-images.githubusercontent.com/112091020/189785929-dbde5646-e32c-45d7-9ca3-f82d36fd5aca.mp4
+
+
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+-Diplay the current time and or the time the user set
+-A UI for the user to confirm that the time they inputted is the one they want using the buttons
+-Ability to turn off the light with the buttons
+-Sound to play at each interval
+-Ability to set the colors and sounds they want
 
 # Prep for Part 2
 
