@@ -225,6 +225,12 @@ https://user-images.githubusercontent.com/112091020/189785929-dbde5646-e32c-45d7
 
 -Ability to set the colors and sounds they want
 
+From Feedback from Michael and Linnekar
+
+-Bar filling or emptying depending on how close it is to the alarm
+
+-Having a digital display definitely makes sense as the next step
+
 # Prep for Part 2
 
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
