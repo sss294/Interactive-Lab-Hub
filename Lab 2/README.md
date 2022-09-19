@@ -206,12 +206,16 @@ After that, Git will ask you to login to your GitHub account to push the updates
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
+First demo:
 Part 1
 https://user-images.githubusercontent.com/112091020/189785917-ee6b94fa-f2c7-482e-a985-d13e34146770.mp4
 
 Part 2
 https://user-images.githubusercontent.com/112091020/189785929-dbde5646-e32c-45d7-9ca3-f82d36fd5aca.mp4
 
+Second demo:
+https://user-images.githubusercontent.com/112091020/191138893-e7379462-2cb9-4d62-a772-90fc4386b58d.mp4
+Added digital display to function as regular clock. When face changes color for the alarm, the time will still display and change font to make it more visible.
 
 
 ## Part G. 
@@ -230,7 +234,6 @@ From Feedback from Michael and Linnekar
 
 -Bar filling or emptying depending on how close it is to the alarm
 
--Having a digital display definitely makes sense as the next step
 
 # Prep for Part 2
 
