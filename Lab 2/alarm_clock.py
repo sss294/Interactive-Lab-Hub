@@ -5,6 +5,8 @@ from adafruit_rgb_display.rgb import color565
 import adafruit_rgb_display.st7789 as st7789
 import webcolors
 from datetime import datetime, timedelta
+from time import strftime, sleep
+from PIL import Image, ImageDraw, ImageFont
 
 # The display uses a communication protocol called SPI.
 # SPI will not be covered in depth in this course.
@@ -25,6 +27,24 @@ display = st7789.ST7789(
     x_offset=53,
     y_offset=40,
 )
+
+# Create blank image for drawing
+height = display.width
+width = display.height
+image = Image.new("RGB", (width, height))
+rotation = 90
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 24)
+
+# Get drawing object to draw on Image
+draw = ImageDraw.Draw(image)
+
+# First define some constants to allow easy resizing of shapes.
+padding = -2
+top = padding
+bottom = height - padding
+# Move left to right keeping track of the current x position for drawing shapes.
+x = 0
+y = top
 
 
 # these setup the code for our buttons and the backlight and tell the pi to treat the GPIO pins as digitalIO vs analogIO
@@ -55,15 +75,24 @@ while not usertime:
         # catch if a user inputs an incorrect format
         print("Please input the date and time in the correct format")
         usertime = ""
+        
 #Main loop
 while True:
+    backlight.value = True
     currenttime = datetime.strftime(datetime.now(), "%m/%d/%Y %H:%M")
     if wakeup == currenttime:
-        backlight.value = True
-        display.fill(color565(255, 255, 255))
-    if thirtybefore == currenttime:
-        backlight.value = True
-        display.fill(color565(255, 153, 153))
-    if fifteenbefore == currenttime:
-        backlight.value = True
-        display.fill(color565(255, 255, 102))
+        draw.rectangle((0, 0, width, height), outline=0, fill=(255, 255, 255))
+        draw.text((x, y), currenttime, font=font, fill=(0, 0, 0))
+    elif thirtybefore == currenttime:
+        draw.rectangle((0, 0, width, height), outline=0, fill=(255, 153, 153))
+        draw.text((x, y), currenttime, font=font, fill=(0, 0, 0))
+    elif fifteenbefore == currenttime:
+        draw.rectangle((0, 0, width, height), outline=0, fill=(255, 255, 102))
+        draw.text((x, y), currenttime, font=font, fill=(0, 0, 0))
+    else:
+        draw.rectangle((0, 0, width, height), outline=0, fill=(0, 0, 0))
+        draw.text((x, y), currenttime, font=font, fill=(255, 255, 255))
+    display.image(image, rotation)
+    sleep(1)
+    
+
