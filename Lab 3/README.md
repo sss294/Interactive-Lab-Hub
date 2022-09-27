@@ -103,11 +103,18 @@ From a remote browser on the same network, check to make sure your webserver is 
 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
-\*\***Post your storyboard and diagram here.**\*\*
+![Lab3_1](https://user-images.githubusercontent.com/112091020/192415215-ec27b76e-ed53-4ee2-b0e2-f401cc0ef893.jpg)
 
-Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
+![Lab3_2](https://user-images.githubusercontent.com/112091020/192415216-28e57073-a36b-42a4-a8ec-ff7a5a297679.jpg)
 
-\*\***Please describe and document your process.**\*\*
+![Lab3_3](https://user-images.githubusercontent.com/112091020/192415217-8fc2dba8-d431-459d-9e85-7895414e35c2.jpg)
+
+![Lab3_4](https://user-images.githubusercontent.com/112091020/192415220-1bc8aa79-1b02-4f85-b55f-beadd36cfd0d.jpg)
+
+![Lab3_5](https://user-images.githubusercontent.com/112091020/192415213-cddc2d19-f709-401d-9578-e0332a13a0d1.jpg)
+
+I wanted the pi to speak only when it is needed since a dog only communicates at certain times. I decided to storyboard a few scenarios where a dog might want to communicate but only very simple communications. I used to have a dog who we trained to ring a bell by the door to indicate he wanted to go outside and he would bark by his food and water cup when he wanted them. I figured these scenarios wouldn't require any input from the dog, but instead use a proximity sensor so if the dog was lingering in a certain area for a certain amount of time, then the pi would speak.
+
 
 ### Acting out the dialogue
 
