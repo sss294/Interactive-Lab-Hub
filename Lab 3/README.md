@@ -144,28 +144,30 @@ The system should:
 * use one or more sensors
 * require participants to speak to it. 
 
-*Document how the system works*
+The system waits for the user to say something, which the user (dog's owner) will ask what the dog wants. Once the system recognizes this phrase and the dog gets in the proximity of one of several objects, the system will speak for the dog. I realized that I would need multiple sensors located at different places or in different things as well as on the dog to get this to work as intended. This would likely be expensive and thus probably doesn't make business sense but it is still fun to see if I could get it to work so I just tested if it would work once the proximity sensor detecting something close to it.
 
-*Include videos or screencaptures of both the system and the controller.*
+
+https://user-images.githubusercontent.com/112091020/193721426-b9868e55-f1de-4242-8449-96ea6e86eede.mp4
+
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
+Apologies, I have not been able to get anyone to test my system as I have been sick the last few days, but I tested the system myself and have feedback.
+
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
+The voice recognition did not work well; I couldn't get it to even fully recognize single words such as "want" or even simpler words like "one." It kept returning a partial result of nothing. 
 
 ### What worked well about the controller and what didn't?
-
-\*\**your answer here*\*\*
+The proximity sensor worked well; I configured it to poll once every second and it worked as intended with my code. I assume it would have worked with my speech recognition if that portion worked better.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
-\*\**your answer here*\*\*
+There needs to be someone activating the code in order to get it started. Ideally, the system would be able to trigger the code to start with just some speech as Alex and Siri work.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-\*\**your answer here*\*\*
+The system can capture what people are saying and how far objects are from it. It could be useful to see what people commonly say to it and, for some places, it could be useful to see how often objects get close to it.
 
