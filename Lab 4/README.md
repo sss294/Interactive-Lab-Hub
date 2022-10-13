@@ -176,11 +176,32 @@ You can go to the [SparkFun GitHub Page](https://github.com/sparkfun/Qwiic_VL53L
 
 Usually, sensors need to positioned in specific locations or orientations to make them useful for their application. Now that you've tried a bunch of the sensors, pick one that you would like to use, and an application where you use the output of that sensor for an interaction. For example, you can use a distance sensor to measure someone's height if you position it overhead and get them to stand under it.
 
-**\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
+![lab4_1](https://user-images.githubusercontent.com/112091020/195480384-08bb76a3-9f60-43f3-bd8c-57b67d20946a.jpg)
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+![lab4_2](https://user-images.githubusercontent.com/112091020/195480392-70e5751a-f065-4dc9-9547-cc6b83131994.jpg)
 
-**\*\*\*Pick one of these designs to prototype.\*\*\***
+![lab4_3](https://user-images.githubusercontent.com/112091020/195480401-194b9087-4953-47bd-8d14-330247a180d0.jpg)
+
+![lab4_4](https://user-images.githubusercontent.com/112091020/195480407-8f49618d-866e-4d39-a3d5-e922ff505b69.jpg)
+
+![lab4_5](https://user-images.githubusercontent.com/112091020/195480415-c506d505-2b01-4542-b5f1-a9d12e385695.jpg)
+
+
+The sketches I made, in order, are:
+1. a light sensor to see how the lighting conditions are in a given spot.
+2. a focus mode device that a user can set to disable notifications for a given time period.
+3. a room measurement device that a user can use to see how far a wall is.
+4. a habit building device that a user can use to track how many days in a row they have done a habit.
+5. a color detecting sensor to determine what color something is and suggest colors that would go well with it.
+
+To prototype these devices I would need to do the following for each sketch:
+1. See what information the light sensor gives and determine what a "safe" lighting environment is. EDIT: The sensor does not capture this data so this idea has been dropped.
+2. The base functionality is simple as I would just need to use the rotary to increase and decrease the time that the user wants to focus for. The added functionality of connecting it to a phone is likely outside the scope of this class.
+3. I used the proximity sensor in the previous lab so I know this one is possible. I would need to test how to add rotary functionality to toggle between different units.
+4. Again, testing the rotary functionality to increase a counter is all I would need.
+5. I would need to test the color sensor to see how accurately it works and then code how to determine a complementary color to recommend.
+
+I decided on the room measurement device that a user can use to see how far a wall is because it seemed to have the most utility and could allow for additional sensors to be added to gain additional functionality. The form factor would also be pretty simple as it just needs to input from a few sensors and could be useful for decorating a room. It would need to be small enough to carry by hand but just needs a proximity sensor, a screen, and an extra button to activate it.
 
 
 ### Part D
@@ -220,14 +241,14 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
- 
-**\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
-**\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+![lab4_6](https://user-images.githubusercontent.com/112091020/195481833-0f15c04b-7f6f-4590-a8b0-235a4666a804.jpg)
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+![lab4_7](https://user-images.githubusercontent.com/112091020/195481843-22c79843-a15a-458d-9bfb-13da41595476.jpg)
 
-**\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+I added a rotary and joystick to the device to toggle between different units of measurement. This will make it more usable for a larger audience. The proximity sensor still would work the same way and I would need to just code in conversions between units and the display to toggle. I realize that a limit of this lab is there is no additional button to start and end the sensor. For now, connecting the device to a laptop and activating it that way works fine, but in a real world use case, the user would want to use it independently and without having to keep it plugged in to an outlet. Also, the user may want to "store" some of the values somewhere to, for instance, record measurements of several things at once. This is more of an edge case, but the added feature may be worth looking into.
+
 
 Build a cardbord prototype of your design.
 
