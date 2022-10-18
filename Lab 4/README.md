@@ -293,8 +293,15 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Part F
 ### Record
 
-Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
-* "Looks like": shows how the device should look, feel, sit, weigh, etc.
-* "Works like": shows what the device can do
-* "Acts like": shows how a person would interact with the device
+I ended up creating the light sensor since I liked that idea better and found out in ended up being possible to make. Here are some pictures of my prototype:
 
+![front](https://user-images.githubusercontent.com/112091020/196319269-9b6aa374-956b-4d9b-98f6-6648daa2105c.jpg)
+
+![back](https://user-images.githubusercontent.com/112091020/196319276-5a3e3363-c880-4abf-8166-3082fc896eda.jpg)
+
+It is a small box that the user will hold up to a spot to see their lighting conditions. If it is below a certain amount of lumens, it will say that the lighting conditions are too dark. If it is in a certain range, it will say it is optimal conditions. If it is too bright, it will say it is too bright.
+There is not too much interaction with the user outside of holding it up to certain areas. The intent was for the box to be small so that the user can carry it wherever they go to test out their lighting conditions so they don't damage their eyes.
+
+Here is a video demoing the prototype:
+
+https://user-images.githubusercontent.com/112091020/196320324-553434b5-4781-4c89-823c-d3e18c96c7c1.mp4
