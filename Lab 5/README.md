@@ -100,7 +100,17 @@ pi@ixe00:~$ cd ~/openCV-examples/object-detection
 pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
-**\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
+<img width="661" alt="object-detection" src="https://user-images.githubusercontent.com/112091020/197609809-3ba652eb-f167-48ee-8a6e-e2d733e32f68.PNG">
+A feature that might be useful is a marker with how far the object is. 
+
+<img width="650" alt="flow-detection" src="https://user-images.githubusercontent.com/112091020/197609814-5fecc0b0-04aa-42e7-aba3-1e8c5dc0fe33.PNG">
+A feature that might be useful is a start, stop, and pause button to help users control how they use the flow detection or to see how it works a bit better.
+
+<img width="667" alt="face_detection" src="https://user-images.githubusercontent.com/112091020/197609816-eee787c4-5583-4e83-bbf1-b742c0178bfb.PNG">
+A feature that might be useful is to be able to name the face and then the machine can track the face.
+
+<img width="660" alt="contours" src="https://user-images.githubusercontent.com/112091020/197609817-1b46ae25-ade4-4e90-be2c-9759c229d832.PNG">
+A feature that might be useful is to be able to take out the details and just leave the contours so the user can take a picture of it or save it as is.
 
 #### Filtering, FFTs, and Time Series data. 
 Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU or Microphone data stream could create a simple activity classifier between walking, running, and standing.
