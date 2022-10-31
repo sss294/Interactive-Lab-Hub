@@ -1,6 +1,6 @@
 # Observant Systems
 
-**NAMES OF COLLABORATORS HERE**
+Worked with Sara Shin on parts 1 and 2.
 
 
 For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
@@ -274,4 +274,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
-**\*\*\*Include a short video demonstrating the finished result.\*\*\***
+Sara and I created an interactive system where the user can use the webcam and the contours file to create an image file with just the contours. The contours will be bright green and the rest will be black. The use case that we thought of was helping artists, both digital and by hand, create images or drawings by capturing the outlines. If a user was trying to sketch something in real life, it can be difficult since the subject and background can be moving. Also, it can be overwhelming to try to capture everything since it requires a lot of detail. We wanted the user to be able to click a button to capture a single moment. In its current version, the system cannot properly take and process multiple pictures but this would be an additional feature that we would add next.
+
+https://user-images.githubusercontent.com/112091020/198913757-011aa29c-436a-47dd-8084-50603125840b.mp4
+
