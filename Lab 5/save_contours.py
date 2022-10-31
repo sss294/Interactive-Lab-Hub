@@ -8,6 +8,9 @@ from adafruit_rgb_display.rgb import color565
 import adafruit_rgb_display.st7789 as st7789
 import webcolors
 from PIL import Image
+import matplotlib.pyplot as plt
+from skimage.io import imsave, imshow, imread
+from skimage.color import rgb2hsv, hsv2rgb
 
 #Create the display
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -63,6 +66,13 @@ while(True):
    if not buttonA.value:
        os.system("scrot output")
        img = Image.open('output')
+       file = cv2.imread('output')
+       green_filtered = (file[:,:,1] > 150) & (file[:,:,0] < 100) & (file[:,:,2] < 110)
+       green_new = file.copy()
+       green_new[:, :, 0] = green_new[:, :, 0] * green_filtered
+       green_new[:, :, 1] = green_new[:, :, 1] * green_filtered
+       green_new[:, :, 2] = green_new[:, :, 2] * green_filtered
+       cv2.imwrite('test.png', green_new)
    if webCam:
       cv2.imshow('contours( press q to quit.)',img_c)
       if cv2.waitKey(1) & 0xFF == ord('q'):
