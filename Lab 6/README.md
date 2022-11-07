@@ -57,6 +57,9 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 <img width="1026" alt="Screen Shot 2022-10-30 at 10 40 32 AM" src="https://user-images.githubusercontent.com/24699361/198885090-356f4af0-4706-4fb1-870f-41c15e030aba.png">
 
+Successful communication
+![image](https://user-images.githubusercontent.com/112091818/200208806-0a9452c4-099e-4287-8eca-6c8c456bdfc8.png)
+
 
 
 ### Part B
