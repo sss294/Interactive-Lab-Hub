@@ -161,7 +161,7 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 1. We are creating a digitized Marco Polo game where one person is trying to find the others but is blindfolded. Instead, they must speak to the device and ask "Marco". The device on the others will say "Polo" and then the seeker will be told how far the closest person is. When the seeker touches the hider, the speaker will win. This device could be used to program multiple games and digitize the experience so that the rules are enforced automatically.
 
-2. We will be using 3 sensors: the webcam, the proximity sensor, and the capactive touch sensor. The webcam will be capturing input when the seeker asks for where the hiders are. It will have to correctly capture when the seeker says "Marco". It will then have to use the proximity sensor to calculate how far the closest user is and use the webcam to state how far they are. Lastly, it will end the game when the seeker touches a hider.
+2. We will be using 3 sensors: the webcam, the proximity sensor, and the capactive touch sensor. The webcam will be capturing input when the seeker asks for where the hiders are. It will have to correctly capture when the seeker says "Marco". It will then have to use the proximity sensor to calculate how far the closest user is and use the speaker on the webcam to state how far they are. Lastly, it will end the game when the seeker touches a hider.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
