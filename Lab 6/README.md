@@ -115,10 +115,12 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ...
  ```
 
-**\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![314483209_678184763843976_815121128806457616_n](https://user-images.githubusercontent.com/112091020/200206609-7003afa4-0fc4-413c-b07d-ae669c7aa791.jpg)
+I connected my student id to the alligator clips and was able to get the touch twizzler sensor to work with it. The student id wasn't that great with the alligator clips as I had to touch pretty close to where it was clipped in order for anything to register.
 
-**\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
 
+![314665841_825691778483636_8540331368615937496_n](https://user-images.githubusercontent.com/112091020/200206602-bf2a8c3d-9928-4783-b635-aea2fa5333a4.jpg)
+I did notice that the sensor could be quite sensitive and would record multiple touches in a short amount of time.
 
 ### Part D
 ### The One True ColorNet
