@@ -98,6 +98,12 @@ Successful communication
 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
+1. Phone replacement: a way to communicate with friends if phone gets taken away by parents
+2. Local reselling system: a way to let people know you are selling an item and find the top buyer
+3. File sharing: can send files more effectively(send to multiple people) and not leave a paper or email trail
+4. Announcement board: see all events that are coming up and who is interested depending on topic
+5. Agri-tech: recorder of type and number of fruit in inventory that gets updated from the field
+
 
 ### Part C
 ### Streaming a Sensor
@@ -119,8 +125,12 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+![image](https://user-images.githubusercontent.com/112091818/200460411-f7996500-d82d-4368-a25d-ef007ea3c9ce.png)
+![image](https://user-images.githubusercontent.com/112091818/200460550-a1b1b004-c05f-40b9-9e70-25cf22db2eea.png)
 
-**\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+![image](https://user-images.githubusercontent.com/112091818/200460779-8a310114-4104-4b9f-bda1-7ce2c95ec349.png)
+![image](https://user-images.githubusercontent.com/112091818/200461231-3ed8505f-e188-4aed-9a41-76562f831ff0.png)
+
 
 
 ### Part D
@@ -153,7 +163,7 @@ You may ask "but what if I missed class?" Am I not admitted into the collective 
 Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-true-colornet.glitch.me/) and become one with the ColorNet on the inter-webs. Glitch is a great tool for prototyping sites, interfaces and web-apps that's worth taking some time to get familiar with if you have a chance. Its not super pertinent for the class but good to know either way. 
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
-
+Yes
 
 ### Part E
 ### Make it your own
@@ -161,12 +171,31 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+We are creating a digitized Marco Polo game where one person is trying to find the others but is blindfolded. Instead, they must speak to the device and ask "Marco". The device on the others will say "Polo" and then the seeker will be told how far the closest person is. When the seeker touches the hider, the speaker will win. This device could be used to program multiple games and digitize the experience so that the rules are enforced automatically and setup will be done without much effort.
+
+![image](https://user-images.githubusercontent.com/112091818/200461375-f5cc1445-d383-4494-8995-d21aa580eb34.png)
+
+The picture above shows what sensors the device uses. Number 2 details how each are used to play the game and the mechanisms by which they work.
+
+Marco: Seeker
+
+Polo: Hiders
+
+![image](https://user-images.githubusercontent.com/112091818/200461467-b55bff0d-a1c7-434a-84b8-61ea16b0b084.png)
+
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+We will be using 3 sensors: the webcam, the proximity sensor, and the capactive touch sensor. The webcam will be capturing input when the seeker asks for where the hiders are. It will have to correctly capture when the seeker says "Marco". It will then have to use the proximity sensor to calculate how far the closest user is and use the speaker on the webcam to state how far they are. Lastly, it will end the game when the seeker touches a hider.
+https://drive.google.com/file/d/13cxp90EBnOah35ULxEcjy60FtVKCCovh/view?usp=share_link
+
+https://drive.google.com/file/d/1KZjAk3YIW8_F6TN2pxNzOP_O5KNP35nJ/view?usp=share_link
+
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+
+We demoed two of the scenarios: the interaction of the Seeker who says "Marco" to their machine and the interaction once the Seeker finds and touches one of the hiders. When the Seeker says "Marco", the proximity sensor calculates the closest Hider and tells the Seeker how far they are. The Hider's sensors will subsequently say "Polo" in response. In the second scenario, the Seeker finds and touches a Hider which ends the game.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-<!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
+One limitation of our scenario is that the proximity sensors do not sense where another sensor is, but instead senses how far an object is in a particular direction. Unfortunately, this is not how the game should actually work, but the sensor we have does not work in that manner. In our demo, we used a "Wizard of Oz" demo to showcase how it should work and as a proof concept but the next steps would be to create it the way we intended it to work.
 
