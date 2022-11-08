@@ -1,6 +1,6 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**
+Sara Shin, Jason Kwan, Kalyan Gautham
 
 ## Prep
 
